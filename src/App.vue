@@ -10,7 +10,8 @@
   <router-link to="/chart"><button>차트</button></router-link>
   <router-link to="/calendar"><button>캘린더</button></router-link>
   <router-link to="/editor"><button>에디터</button></router-link>
-  <router-link to="/excel"><button>엑셀</button></router-link>
+  <router-link to="/sheetjs"><button>엑셀</button></router-link>
+  <router-link to="/cssframework"><button>CSS프레임워크</button></router-link>
   <router-view />
   <!-- <div>
     <a href="https://vitejs.dev" target="_blank">

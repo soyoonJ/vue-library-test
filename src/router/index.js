@@ -3,7 +3,8 @@ import { createRouter, createWebHashHistory } from 'vue-router';
 import Chart from '../views/Chart.vue';
 import Calendar from '../views/Calendar.vue';
 import Editor from '../views/Editor.vue';
-import Excel from '../views/Excel.vue';
+import SheetJS from '../views/SheetJS.vue';
+import CssFramework from '../views/CssFramework.vue';
 
 const routes = [
   {
@@ -22,9 +23,14 @@ const routes = [
     component: Editor,
   },
   {
-    path: '/excel',
-    name: 'Excel',
-    component: Excel,
+    path: '/sheetjs',
+    name: 'SheetJS',
+    component: SheetJS,
+  },
+  {
+    path: '/cssframework',
+    name: 'CssFramework',
+    component: CssFramework,
   },
 ];
 
